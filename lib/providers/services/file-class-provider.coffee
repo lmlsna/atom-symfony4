@@ -1,4 +1,4 @@
-proxy = require '../../services/symfony2-proxy.coffee'
+proxy = require '../../services/symfony4-proxy.coffee'
 fuzzaldrin = require 'fuzzaldrin'
 
 module.exports =

@@ -8,7 +8,7 @@ module.exports =
         routes: {}
 
     ###*
-     * Execute a symfony2 command
+     * Execute a symfony4 command
      * @param  {array} command
      * @return {mixed}
     ###
@@ -34,7 +34,7 @@ module.exports =
         @phpProxy = proxy
 
     ###*
-     * Returns sf2 services
+     * Returns sf4 services
      *
      * @param {bool} force Force refresh or not ?
      *
@@ -97,7 +97,7 @@ module.exports =
         return @data.entities
 
     ###*
-     * Returns SF2 routes
+     * Returns SF4 routes
      *
      * @param {bool} force Force refresh or not ?
      *

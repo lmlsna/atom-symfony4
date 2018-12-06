@@ -5,7 +5,7 @@ module.exports =
      * Get plugin configuration
     ###
     updateConfig: () ->
-        @config['console'] = atom.config.get('atom-symfony2.console')
+        @config['console'] = atom.config.get('atom-symfony4.console')
 
     ###*
      * Init function called on package activation
@@ -14,5 +14,5 @@ module.exports =
     init: () ->
         @updateConfig()
 
-        atom.config.onDidChange 'atom-symfony2.console', () =>
+        atom.config.onDidChange 'atom-symfony4.console', () =>
             @updateConfig()

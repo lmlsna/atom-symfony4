@@ -1,14 +1,16 @@
 {
-  "name": "atom-symfony2",
-  "main": "./lib/atom-symfony2",
-  "version": "0.3.0",
-  "description": "Symfony2 tools and completion",
+  "name": "atom-symfony4",
+  "main": "./lib/atom-symfony4",
+  "version": "0.4.0",
+  "description": "Symfony4 tools and auto-completion",
   "keywords": [
     "php",
-    "symfony2",
+    "symfony4",
+    "symfony",
+    "atom",
     "autocomplete"
   ],
-  "repository": "https://github.com/peekmo/atom-symfony2",
+  "repository": "https://github.com/lmlsna/atom-symfony4",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

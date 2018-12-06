@@ -1,6 +1,6 @@
 parser = require '../services/php-parser.coffee'
 fuzzaldrin = require 'fuzzaldrin'
-proxy = require '../services/symfony2-proxy.coffee'
+proxy = require '../services/symfony4-proxy.coffee'
 plugin = require '../plugin.coffee'
 
 module.exports =

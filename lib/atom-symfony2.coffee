@@ -1,5 +1,5 @@
 {CompositeDisposable} = require 'atom'
-proxy = require './services/symfony2-proxy.coffee'
+proxy = require './services/symfony4-proxy.coffee'
 parser = require './services/php-parser.coffee'
 config = require './config.coffee'
 plugin = require './plugin.coffee'
@@ -14,9 +14,9 @@ module.exports =
     config:
         console:
             title: 'Relative path to console file'
-            description: 'Relative path to symfony2 console file (default app/console)'
+            description: 'Relative path to symfony4 console file (default bin/console)'
             type: 'array'
-            default: ['app/console']
+            default: ['bin/console']
             order: 1
 
     activate: ->
